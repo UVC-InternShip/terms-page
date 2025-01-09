@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Contact } from "./pages/Contact";
 import { Terms } from "./pages/Terms";
-import { Privacy } from "./pages/TermsOfPrivacy";
 
 const Router = () => {
   return (
