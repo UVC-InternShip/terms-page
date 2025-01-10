@@ -5,7 +5,7 @@ import { Terms } from "./pages/Terms";
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/terms-page">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/terms/*" element={<Terms />} />
